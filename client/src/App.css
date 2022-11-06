@@ -1,0 +1,133 @@
+.App{
+  margin: 0;
+  width: 100vw;
+  height: 100vh;
+}
+.register-container{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: aquamarine;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.login-container{
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  background-color: antiquewhite;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.register-form{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.login-form{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.mem-login{
+  text-decoration: none;
+  color: red;
+}
+.main-container{
+  width: 100%;
+  height: 100%;
+}
+.user-container{
+  margin: 0 auto;
+  width: 95%;
+  height: 15%;
+  margin: 10px;
+  border: 5px solid greenyellow;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.submain-container{
+  width: 100%;
+  height: 75%;
+  margin: 10px;
+  display: flex;
+}
+.sidebar{
+  width: 25%;
+  height: 100%;
+  background-color: greenyellow;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+}
+.history{
+  display: flex;
+  flex-flow: column wrap;
+  align-items: center;
+  justify-content: center;
+}
+.logout{
+  height: 10%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.btn{
+  font-size: 1.1rem;
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+.logout :hover{
+  font-size: 1.2rem;
+}
+.activities{
+  width: 70%;
+  height: 100%;
+  display: flex;
+  flex-flow: column wrap;
+}
+.addtodo{
+  width: 100%;
+  height: 20%;
+  display: inline;
+  margin-left: 20px;
+}
+.btn-add{
+  height: 40%;
+  border-radius: 5px;
+  border: none;
+  background-color: mediumpurple;
+  color: white;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 10px;
+}
+.addtodo :hover{
+  border: 2px solid black;
+}
+.activity-container{
+  padding: 10px;
+  margin: 0 auto;
+  width: 80%;
+  height: 70%;
+  border: 2px solid black;
+}
+.head, .row{
+  display: flex;
+  justify-content: space-between;
+}
+.head{
+  align-items: center;
+  background-color: lightblue;
+  height: 4rem;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
